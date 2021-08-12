@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="styl/styl.css">
+        <link rel="stylesheet" href="styl/mobile.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/skroll.js"></script>
+        <title>moreshop </title>
+        </head>
+        <body>
+            <nav> 
+<a href="index.html"><img src="jpg/logo.png" class="logo"></a>
+                    <ul>
+                   <a class="menua" href="index.html"><li class="item">home</li></a>
+                   <a class="menua" href="#"><li class="item">sklep</li></a>
+                   <a class="menua" href="#"><li class="item">kontakt</li></a>
+                    <a class="menua" href="#"><li class="item">koszyk</li>
+                    <span class="icon-shopping_cart"></span></li>
+            
+        </a>
+            <a class="menua" href="index.html"><li class="item">logowanie</li></a>
+                </ul>
+                  <button class="burger">
+                      <div class="line"></div>
+                      <div class="line"></div>
+                      <div class="line"></div>
+                      
+                  </button>
+                   </nav>
+                   <script>
+
+const mobileNav = document.querySelector('ul');
+const burgerIcon = document.querySelector('.burger');
+burgerIcon.addEventListener('click', function(){
+    mobileNav.classList.toggle('active');
+    burgerIcon.classList.toggle('active'); 
+})
+</script>
+
+                    <div class="startzdj">
+                    <div class="zdjstart">
+                        <img src="jpg/obraz.png"  class="zdjglowne">
+                        <style>
+                            .zdjglowne{
+                                min-height: 92.5vh;
+                                width: 100%;
+                            }
+                            @media screen  and (min-width:150px)  and (max-width: 1380px)  {
+                                html{
+                                    height:100%;
+                                     width:100%;
+                                }
+                            .zdjglowne 
+                              {
+                               
+                                min-height: 50vh;
+                                max-width: 100%;
+                                     }  }
+                                     @media  screen  and (min-width:1381px)  and (max-width: 1700px)  {
+                            .zdjglowne 
+                              {
+                               max-width: 100%;
+                               max-height: 100%;
+                                
+                                     }  }
+
+                        </style>
+
+                        <div class="opis">
+                             Witamy  na<br>
+                            Moreshop
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <h1 class="opsis2">Nasze  recznie robione produkty</h1>
+                   
+                    <div class="listapord">
+
+                           <div class="bluzy">
+                            <a href="bluzy.html">
+                               <div class="zdjbluzy">
+                                   <img src="jpg/bluza.jpg"  class="zdjbluzy1" alt="bluza">
+                               <div class="opiszdj1">
+                                   Bluzy
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+
+<div class="spodnie">
+    <a href="spodnie.html">
+        <div class="zdjspodni">
+            <img src="jpg/spodnie.jpg"  class="zdjspodni1"style="width: 300px;height: 425px;">
+            <div class="opisszdj2">
+                Spodnie
+            </div>
+        </div>
+        </a>
+</div>
+
+                            <div class="sukienka">
+                                <a href="zestawy.html">
+                                    <div class="zdjsukienki">
+                                    <img src="jpg/suk.jpg"  class="zdjsukienki1" style="width: 300px;height: 425px;">
+                                    <div class="opiszdj3">
+                                        Sukienki
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+<div class="footer">
+    <div class="logofooter">
+        <img src="jpg/logo.png" class="logodol" alt="logo">
+        <style>
+        .logodol{
+    height: 10rem;
+    float: left;
+            }
+    </style>
+    </div>
+  <div class="kategorie">
+<h1>SKLEP</h1>
+<div class="rzeczy1">
+    <a href="index.html"><li>home</li></a>
+    <a href="index.html"><li>sklep</li></a>
+    <a href="index.html"><li>płatność i wysłka</li></a>
+</div>
+</div>
+<div class="kontakt">
+    <h1>
+        KONTAKT
+    </h1>
+    <div class="rzeczy2">
+        <li> <a href="tel:+48888000222">Telefon (+48)888 000 222</a></li>
+     <li>Adres </li>
+    <li>Warszawa 00-015 </li>
+    <li>ul.Sieniewicza 12</li>
+</div>
+</div>
+</div>
+       
+        </body>

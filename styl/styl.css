@@ -1,0 +1,274 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+}
+
+*
+{
+    font-family: 'Exo', sans-serif;
+    padding: 0;
+margin: 0;
+border:0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 10px;
+    
+}
+body{
+    background-color: #ffffff;
+}
+
+nav{
+        
+    background-color: #f2f2f2;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        height: 8vh;
+       position: relative;
+        padding: 2em;
+        box-shadow:   #978E8E 1px 1px 5px;
+        
+        
+       
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    
+    position: relative;
+    padding: .2em;
+    color: #978E8E;
+}
+.menua::after{
+    content:  '';
+    position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+background-color: #4e6c77;
+height: .15rem;
+border-radius: 10px;
+transition: .3s ease-in-out ;
+}
+.menua:hover::after{
+    width: 100%;
+}
+.burger{
+    background: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+.line{
+    width: 3em;
+    height: .3em;
+    background-color: #000;
+    margin: .7em ;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.opis{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 7rem;
+    background-color: #4e6c77;
+    opacity: 0.8;
+    width: 25%;
+   
+}
+
+.opsis2{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 3rem;
+}
+.tresc{
+    background-color: #fff;
+    text-align: center;
+    float: left;
+}
+.tresc>p{
+    background-color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bluzy{
+    position: relative;
+    color: #000;
+    float: left;
+    margin-left: 15%;
+    
+}
+.zdjbluzy1{
+    position: relative;
+    object-fit:cover;
+    
+  
+}
+
+.opiszdj1{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    
+}
+
+
+.spodnie{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+}
+.zdjspodni{
+    
+    object-fit:cover;
+    
+    
+}
+
+.opisszdj2{
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    
+}
+
+.sukienka{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+}
+.zdjsukienkii{
+    
+    object-fit:cover;
+    
+    
+}
+
+.opiszdj3{
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    
+}
+
+
+.boxpr1{
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 1% ;
+   float: left;
+    width:25%;
+    height: 25%;
+    text-align: center;
+    background-color: #867676;
+    margin-left: 25%;
+    
+}
+
+.boxpr2{
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 1%; 
+  float: left;
+    width:25%;
+    height: 25%;
+    text-align: center;
+    background-color: #867676;
+}
+.zdj{
+ height: 438px;
+}
+.sklep{
+    clear: both;
+}
+.sklep>p{
+    padding-top: 2em;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+.rzeczy1>li,a{
+    list-style: none;
+    
+    font-size: 2rem;
+}
+.rzeczy2>li,a{
+    list-style: none;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    
+}
+.footer{
+    clear: both;
+    background-color: #f4f4f4;
+    display: block;
+    margin-top: 30%;
+    
+}
+.kontakt{
+    float: left;
+     margin-left: 25%;
+ }
+ .kategorie{
+   float: left;
+   margin-left: 5%;
+ line-height: 100%;
+ }  
+
+
+a
+{
+text-decoration: none!important;
+-webkit-box-shadow: none!important;
+box-shadow: none!important;
+
+}
+.bluzy, .spodnie, .sukienka{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+.bluzy:hover, .spodnie:hover, .sukienka:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+  
+  

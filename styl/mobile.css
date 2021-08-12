@@ -1,0 +1,160 @@
+@media all  and (min-width:1159px) and (max-width:1398px)   {
+    .opis
+    {
+  display: block;
+     position: absolute;
+      top: 250px;
+      left: 0;
+      text-align: center;
+      color: #f4f4f4;
+      font-size: 6rem;
+      background-color: #4e6c77;
+      opacity: 0.8;
+      width: 30%;
+    }  
+
+    .sukienka{
+        margin-top: 1rem;
+      margin-left: 40%;
+    }
+    .bluzy{
+        margin-left: 25%;
+    }
+ 
+      }
+      @media all  and (min-width:950px) and (max-width:1160px)   {
+        .opis
+      {
+    display: block;
+       position: absolute;
+        top: 250px;
+        left: 0;
+        text-align: center;
+        color: #f4f4f4;
+        font-size: 6rem;
+        background-color: #4e6c77;
+        opacity: 0.8;
+        width: 30%;
+      }  
+    
+    .sukienka{
+        margin-top: 1rem;
+      margin-left: 35%;
+    }
+    .bluzy{
+        margin-left: 15%;
+    }
+                 }  
+
+
+
+                 @media all  and (min-width:804px) and (max-width:951px)  
+                  {
+
+                    .opis
+      {
+    display: block;
+       position: absolute;
+        top: 250px;
+        left: 0;
+        text-align: center;
+        color: #f4f4f4;
+        font-size: 6rem;
+        background-color: #4e6c77;
+        opacity: 0.8;
+        width: 40%;
+      }  
+    
+    .sukienka{
+        margin-top: 1rem;
+      margin-left: 35%;
+    }
+    .bluzy{
+        margin-left: 15%;
+    }
+    .logofooter,.kategorie{
+      float: left;
+      clear: both;
+      text-align: center;
+      margin: 0;
+      margin-left: 35%;
+      margin-top: 22px;
+
+    }
+    .kontakt{
+text-align: center;
+margin-left: 26%;
+    }
+                }  
+                @media screen  and (min-width:360px) and (max-width:800px)  
+                  {
+
+                    .opis
+      {
+    display: block;
+       position: absolute;
+       top: 250px;
+        left: 32%;
+        text-align: center;
+        color: #f4f4f4;
+        font-size: 6rem;
+        background-color: #4e6c77;
+        opacity: 0.8;
+        width: 40%;
+      }  
+    
+    .bluzy, .spodnie, .sukienka
+    {
+     
+     margin-left: 30%;
+    }
+    .logofooter,.kategorie{
+      float: left;
+      clear: both;
+      text-align: center;
+      margin: 0;
+      margin-left: 35%;
+      margin-top: 22px;
+
+    }
+    .kontakt{
+text-align: center;
+margin-left: 29%;
+    }
+  }
+
+                
+                 /* menu mobile */
+                 @media all and (min-width:360px) and (max-width:1000px)   
+                 {
+
+                  .burger {
+                   
+                    display: block;
+                    transition: .3s ease-in-out;
+                 margin-left: 50%;
+
+                 }
+                
+                 ul{
+                   
+                       position: fixed;
+                       right: 0;
+                        top: 8vh;
+                        background-color: #f4f4f4;
+                        flex-direction: column;
+                        text-align: center;
+                        transform: translate(100%);
+                         transition: .4s ease-in-out;
+                         width: 100%;
+                 }
+                 ul.active{
+                  width:500px; height:200px; background-color:Blue; display: none;
+                   
+                 }
+                 a {
+                  
+                  font-size: 2.5rem;
+                  letter-spacing: 2px;
+              }
+            }           
